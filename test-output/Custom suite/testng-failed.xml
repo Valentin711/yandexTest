@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Custom suite]" parallel="none">
+  <test name="yandexTest(failed)" parallel="none">
+    <classes>
+      <class name="yandex.com.web.tests.Test_1">
+        <methods>
+          <include name="initialisation"/>
+          <include name="offTestServer"/>
+          <include name="TestFunctions"/>
+        </methods>
+      </class> <!-- yandex.com.web.tests.Test_1 -->
+    </classes>
+  </test> <!-- yandexTest(failed) -->
+</suite> <!-- Failed suite [Custom suite] -->
