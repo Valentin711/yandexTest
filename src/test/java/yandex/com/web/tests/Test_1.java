@@ -8,7 +8,7 @@ public class Test_1 extends BaseTest{
     public void TestFunctions()throws Exception{
         siteManager.getHomePage().openMapsPage();
         siteManager.getMapsPage().getTitle();
-        siteManager.getHomePage().openMapsPage();
+        //siteManager.getHomePage().openMapsPage();
         //siteManager.getHomePage().openMapsPage();
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Full test D3]">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Full_test_D3]">
   <test name="reports(failed)">
     <classes>
       <class name="yandex.com.web.tests.Test_1">
@@ -12,4 +12,4 @@
       </class> <!-- yandex.com.web.tests.Test_1 -->
     </classes>
   </test> <!-- reports(failed) -->
-</suite> <!-- Failed suite [Full test D3] -->
+</suite> <!-- Failed suite [Full_test_D3] -->

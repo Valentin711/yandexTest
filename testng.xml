@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Full test D3" verbose="1" >
+<suite name="Full_test_D3" verbose="1" >
     <test name="reports" >
         <classes>
             <class name="yandex.com.web.tests.Test_1" />

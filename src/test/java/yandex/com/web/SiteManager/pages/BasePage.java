@@ -11,13 +11,4 @@ public abstract class BasePage {
         }
         return driver;
     }
-    public BasePage() {
-        //getDriver();
-        PageFactory.initElements(driver, this);
-    }
-/*    public static void CloseDriver()
-    {
-        WebDriver driver = Driver();
-        if (driver != null) driver.quit();
-    }*/
 }

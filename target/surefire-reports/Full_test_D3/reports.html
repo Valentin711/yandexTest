@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jun 16 14:07:46 EEST 2016</td>
+<td>Started on:</td><td>Wed Jun 22 16:14:04 EEST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (88 ms)</td>
+<tr><td>Total time:</td><td>62 seconds (62132 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,25 +76,49 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='yandex.com.web.tests.Test_1.initialisation()'><b>initialisation</b><br>Test class: yandex.com.web.tests.Test_1</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.00 seconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;ABS149&apos;, ip: &apos;192.168.79.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.Executable.&lt;init&gt;(Executable.java:75)
-	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:60)
-	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:56)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
-	at yandex.com.web.tests.BaseTest.initialisation(BaseTest.java:18)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1519280649", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1519280649'><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at yandex.com.web.SiteManager.pages.Browser.getDriver(Browser.java:10)
+	at yandex.com.web.SiteManager.pages.BasePage.getDriver(BasePage.java:10)
+	at yandex.com.web.SiteManager.SiteManager.&lt;init&gt;(SiteManager.java:34)
+	at yandex.com.web.tests.BaseTest.initialisation(BaseTest.java:63)
+... Removed 37 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace726181440", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace726181440'><pre>org.openqa.selenium.WebDriverException: unknown error: unable to discover open pages
+  (Driver info: chromedriver=2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61.00 seconds
 Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
 System info: host: &apos;ABS149&apos;, ip: &apos;192.168.79.106&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.Executable.&lt;init&gt;(Executable.java:75)
-	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:60)
-	at org.openqa.selenium.firefox.FirefoxBinary.&lt;init&gt;(FirefoxBinary.java:56)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
-	at yandex.com.web.tests.BaseTest.initialisation(BaseTest.java:18)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:170)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:159)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at yandex.com.web.SiteManager.pages.Browser.getDriver(Browser.java:10)
+	at yandex.com.web.SiteManager.pages.BasePage.getDriver(BasePage.java:10)
+	at yandex.com.web.SiteManager.SiteManager.&lt;init&gt;(SiteManager.java:34)
+	at yandex.com.web.tests.BaseTest.initialisation(BaseTest.java:63)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,14 +154,14 @@ Driver info: driver.version: FirefoxDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </pre></div></td>
 <td>0</td>
-<td>yandex.com.web.tests.Test_1@73f792cf</td></tr>
+<td>yandex.com.web.tests.Test_1@668bc3d5</td></tr>
 <tr>
 <td title='yandex.com.web.tests.Test_1.offTestServer()'><b>offTestServer</b><br>Test class: yandex.com.web.tests.Test_1</td>
 <td><div><pre>java.lang.NullPointerException
-	at yandex.com.web.tests.BaseTest.offTestServer(BaseTest.java:25)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1539805781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1539805781'><pre>java.lang.NullPointerException
-	at yandex.com.web.tests.BaseTest.offTestServer(BaseTest.java:25)
+	at yandex.com.web.tests.BaseTest.offTestServer(BaseTest.java:69)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1478150312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1478150312'><pre>java.lang.NullPointerException
+	at yandex.com.web.tests.BaseTest.offTestServer(BaseTest.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,7 +197,7 @@ Driver info: driver.version: FirefoxDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
 </pre></div></td>
 <td>0</td>
-<td>yandex.com.web.tests.Test_1@73f792cf</td></tr>
+<td>yandex.com.web.tests.Test_1@668bc3d5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -186,7 +210,7 @@ Driver info: driver.version: FirefoxDriver
 <td title='yandex.com.web.tests.Test_1.TestFunctions()'><b>TestFunctions</b><br>Test class: yandex.com.web.tests.Test_1</td>
 <td></td>
 <td>0</td>
-<td>yandex.com.web.tests.Test_1@73f792cf</td></tr>
+<td>yandex.com.web.tests.Test_1@668bc3d5</td></tr>
 </table><p>
 </body>
 </html>
