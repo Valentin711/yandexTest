@@ -29,7 +29,7 @@ public class MapsPage extends BasePage{
 
 
     public String getTitle(){
-        System.out.println("Current object is not displayed at page");
+        System.out.println('"'+title.getText()+'"'+" is displayed at page");
         return title.getText();
     }
 

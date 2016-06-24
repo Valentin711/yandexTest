@@ -50,12 +50,12 @@ public abstract class BaseTest {
         options.addArguments("google-url=http://yandex.ua");
         options.addArguments("url=http://yandex.ua");*/
 
-        System.setProperty("webdriver.chrome.driver", "D:\\chrome_2.20\\chromedriver.exe");
+        /*System.setProperty("webdriver.chrome.driver", "D:\\chrome_2.20\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
 
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
 
         if (URL == null) {URL = "http://yandex.ua";}
         //if (driver==null) {this.driver = new ChromeDriver(options);}

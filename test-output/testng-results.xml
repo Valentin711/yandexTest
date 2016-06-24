@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Custom suite" duration-ms="26549" started-at="2016-06-22T13:13:20Z" finished-at="2016-06-22T13:13:46Z">
+  <suite name="Custom suite" duration-ms="11981" started-at="2016-06-24T11:57:55Z" finished-at="2016-06-24T11:58:07Z">
     <groups>
     </groups>
-    <test name="yandexTest" duration-ms="26549" started-at="2016-06-22T13:13:20Z" finished-at="2016-06-22T13:13:46Z">
+    <test name="yandexTest" duration-ms="11981" started-at="2016-06-24T11:57:55Z" finished-at="2016-06-24T11:58:07Z">
       <class name="yandex.com.web.tests.Test_1">
-        <test-method status="PASS" signature="initialisation()[pri:0, instance:yandex.com.web.tests.Test_1@77e4c80f]" name="initialisation" is-config="true" duration-ms="6061" started-at="2016-06-22T16:13:20Z" finished-at="2016-06-22T16:13:26Z">
+        <test-method status="PASS" signature="initialisation()[pri:0, instance:yandex.com.web.tests.Test_1@667a738]" name="initialisation" is-config="true" duration-ms="6874" started-at="2016-06-24T14:57:55Z" finished-at="2016-06-24T14:58:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisation -->
-        <test-method status="PASS" signature="TestFunctions()[pri:0, instance:yandex.com.web.tests.Test_1@77e4c80f]" name="TestFunctions" duration-ms="19019" started-at="2016-06-22T16:13:26Z" finished-at="2016-06-22T16:13:45Z">
+        <test-method status="PASS" signature="TestFunctions()[pri:0, instance:yandex.com.web.tests.Test_1@667a738]" name="TestFunctions" duration-ms="4236" started-at="2016-06-24T14:58:02Z" finished-at="2016-06-24T14:58:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestFunctions -->
-        <test-method status="PASS" signature="offTestServer()[pri:0, instance:yandex.com.web.tests.Test_1@77e4c80f]" name="offTestServer" is-config="true" duration-ms="1455" started-at="2016-06-22T16:13:45Z" finished-at="2016-06-22T16:13:46Z">
+        <test-method status="PASS" signature="offTestServer()[pri:0, instance:yandex.com.web.tests.Test_1@667a738]" name="offTestServer" is-config="true" duration-ms="858" started-at="2016-06-24T14:58:07Z" finished-at="2016-06-24T14:58:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- offTestServer -->
